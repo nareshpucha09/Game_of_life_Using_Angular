@@ -1,0 +1,23 @@
+﻿.goiGridContainer{
+   text-align:center;
+}
+.margin-bottom-20px{
+    margin-bottom:20px;
+}
+.grid {
+    margin: 0 auto;
+}
+.grid tr td {
+    margin: 0;
+    padding: 0;
+    border: solid 1px #111;
+    width: 22px;
+    height: 22px;
+}
+.grid tr td.alive {
+    background: #000;
+    border-color: gray;
+}
+.grid tr td:hover {
+    cursor: pointer;
+}
